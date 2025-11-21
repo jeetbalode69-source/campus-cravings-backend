@@ -16,12 +16,12 @@ app.post('/api/order', (req, res) => {
 app.get('/api/orders', (req, res) => {
   res.json(orders);
 });
+app.get('/', (req, res) => {
+  res.send('Campus Cravings Backend is Running.');
+});
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-});
-app.get('/', (req, res) => {
-  res.send('Campus Cravings Backend is Running.');
 });
 
