@@ -18,9 +18,18 @@ app.get('/api/orders', (req, res) => {
 });
 app.get('/', (req, res) => {
   res.send('Campus Cravings Backend is Running.');
+<<<<<<< HEAD
 })
+=======
+});
+
+>>>>>>> db04b89ebfe893ff8cf22cd6f5ae422bc80acc10
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+<<<<<<< HEAD
 ;
+=======
+
+>>>>>>> db04b89ebfe893ff8cf22cd6f5ae422bc80acc10
